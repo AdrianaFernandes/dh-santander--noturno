@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Andrew",
+      "location": "USA"
+    },
+    {
+      "id": 2,
+      "name": "Julio",
+      "location": "Canadá"
+    },
+    {
+      "id": "3",
+      "name": "Rafael",
+      "location": "Brasil"
+    },
+    {
+      "id": "4",
+      "name": "Adriana Fernandes",
+      "location": "dxfdfgzf"
+    },
+    {
+      "id": "BjLpsnr",
+      "name": "",
+      "location": ""
+    },
+    {
+      "id": "6",
+      "name": "Bianca Fernandes Amorim",
+      "location": ""
+    },
+    {
+      "id": "12",
+      "name": "zsgsg1s35g1",
+      "location": "z2g3"
+    }
+  ]
+}

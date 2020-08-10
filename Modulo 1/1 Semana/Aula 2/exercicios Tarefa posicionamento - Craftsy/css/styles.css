@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #34daf8;
+  
+}
+
+/* [Header] */
+.header {
+  background-color: #f74b00;
+  color: #ffffff;  
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+  margin-top: 50px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+nav {
+  display: flex;  
+  justify-content: space-between;  
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  list-style-type: none
+}
+
+.menu img {
+  width: 50px;
+  border-radius: 50px;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.menu a {
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.li .p{
+  letter-spacing: 5px;  
+  color: #ffffff;
+}
+
+
+.container {  
+  width: 1000px;
+  height: 100vh;  
+  margin-top: 50px;
+  margin-left: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content {
+  background-color: #ffffff;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 960px;  
+  height: 50vh;
+  
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 0px;
+  box-shadow: 0px 2px 23px rgb(3, 0, 12);
+  width: 300px;
+  margin: 0 5px;
+}
+
+.mediaCard1 {
+  background: url("https://static.adnews.com.br/wp-content/uploads/2020/02/s20alta.jpeg")
+    center/cover;
+  height: 250px;
+  max-width: 300px;
+}
+
+.mediaCard2 {
+  background: url("https://i.zst.com.br/images/tablet-samsung-galaxy-tab-s6-4g-128gb-super-amoled-10-5-android-9-0-pie-13-mp-sm-t865l-photo963520243-12-35-33.jpg")
+    center/cover;
+  height: 250px;
+  max-width: 300px;
+}
+
+.mediaCard3 {
+  background: url("https://cdn.iset.io/assets/55268/produtos/756/adesivo-para-notebook-matrix-1.jpg")
+    center/cover;
+  height: 250px;
+  max-width: 300px;
+}
+.mediaCard4 {
+  background: url("https://img.elo7.com.br/product/zoom/231E638/skin-adesivo-notebook-capa-para-notebook-musica-notebook.jpg")
+    center/cover;
+  height: 250px;
+  max-width: 300px;
+}
+
+.mediaCard5 {
+  background: url("https://images-americanas.b2w.io/spacey/2020/04/13/S20.jpg")
+    center/cover;
+  height: 250px;
+  max-width: 300px;
+}
+
+.mediaCard6 {
+  background: url("https://www.gigantec.com.br/media/catalog/product/cache/1/image/800x925/9df78eab33525d08d6e5fb8d27136e95/t/a/tablet_multilaser_m10a_3g_quad_core_android_9_pie_dual_c_mera_10_32gb_bluetooth_preto_nb331_2.jpg")
+    center/cover;
+  height: 250px;
+  max-width: 300px;
+}
+
+.mediaCard7 {
+  background: url("https://www.oficinadanet.com.br/imagens/post/27517/lg-dobravel-patente_1400x875_5d71444e6a958.jpg")
+    center/cover;
+  height: 250px;
+  max-width: 300px;
+}
+
+.mediaCard8 {
+  background: url("https://a-static.mlcdn.com.br/1500x1500/novo-notebook-dell-xps-13-9380-proc-i7-mem-16gb-ssd-512mb-wifi-windows-10-home-garantia-1-ano/tendinfo/xps-13-9380-16gb-512ssd/23f820fd1c31e7ee6be0283a59ab4b1e.jpg")
+    center/cover;
+  height: 250px;
+  max-width: 300px;
+}
+
+.mediaCard9 {
+  background: url("https://40047.cdn.simplo7.net/static/40047/sku/celulares-smartphones-celular-xiaomi-mi-9-128gb-6gb-ram--p-1560255093275.jpg")
+    center/cover;
+  height: 250px;
+  max-width: 300px;
+}
+
+
+.title {
+  color: #06162a;
+  line-height: 40px;
+}
+
+.secondText {
+  color: #445b71;
+}
+
+.bottonText {
+  color: #445b71;
+  line-height: 40px;
+}
+
+.topCard {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.bottonCard {
+  padding: 20px;
+}
+
+.actions {
+  background: none;
+  border: none;
+  color: purple;
+}

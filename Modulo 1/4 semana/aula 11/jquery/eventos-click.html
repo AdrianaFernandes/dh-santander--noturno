@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eventos de click</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- jquery -->
+    <script src="jquery-2.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#div1").mousedown(function(){
+                alert("Elemento foi clicado!");
+            });
+        });
+        // $(document).ready(function(){
+        //  $("#div1").click(function(){
+        //      alert("Elemento clicado");
+        //  });
+        // });
+    </script>
+</head>
+<body>
+        <div id="div1"></div>       
+</body>
+</html>
+<!-- 
+        click
+        dblclick
+        mousedown
+        mouseover
+        mouseout -->

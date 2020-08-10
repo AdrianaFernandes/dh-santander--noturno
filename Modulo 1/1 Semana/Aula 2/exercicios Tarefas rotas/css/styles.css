@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/fundo-pattern.png);   
+  background-attachment: fixed;
+  height: 100%;
+  margin: 50px 125px;
+  background-color: #ffffff;
+  font-family: "Mulish", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.section1 {  
+  width: 960px;
+  margin: 20px;
+  padding: 20px;
+  border: solid 2px rgb(182, 176, 176);
+}
+
+.section1 {
+  background-color: aqua;   
+  box-shadow: 0px 2px 23px rgb(198, 189, 231);  
+}
+
+.section2 {
+  background-color: rgb(216, 210, 210);   
+  box-shadow: 0px 2px 23px rgb(198, 189, 231);
+}
+
+.section3 {
+  background-color: rgb(255, 231, 235);   
+  box-shadow: 0px 2px 23px rgb(198, 189, 231);
+}
+
+ul {
+  margin: 50px;
+}
+
+ol {
+  margin: 50px;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: darkslateblue;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  margin: 0 25px;
+}
+
+.nav_mae {
+  padding: 50px;
+  font-size: 15px;
+  color: black;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 100%;
+  height: 70vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 2px 23px rgb(198, 189, 231);
+  width: 500px;
+  margin: 0 25px;
+}
+
+.mediaCard1 {
+  background: url("https://hilnethcorreia.com.br/wp-content/uploads/2019/09/dia-mundial-do-livro-2.jpg")
+    center/cover;
+  height: 250px;
+  width: 100%;
+}
+
+.mediaCard2 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPpB-JzNDcKz9VtZWhFwclM3mAjpUwdXqmiQ&usqp=CAU")
+    center/cover;
+  height: 250px;
+  width: 100%;
+}
+
+.mediaCard3 {
+  background: url("https://i1.wp.com/www.cavida.org/wp-content/uploads/2018/05/voluntario.jpg?fit=810%2C552")
+    center/cover;
+  height: 250px;
+  width: 100%;
+}
+
+.title {
+  color: #06162a;
+  line-height: 40px;
+}
+
+.secondText {
+  color: #445b71;
+}
+
+.bottonText {
+  color: #445b71;
+  line-height: 40px;
+}
+
+.topCard {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.bottonCard {
+  padding: 20px;
+}
+
+.actions {
+  background: none;
+  border: none;
+  color: purple;
+}
+
+.card2 {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 2px 23px rgb(198, 189, 231);
+  width: 640px;
+  margin: 0px 10px;
+  margin-bottom: 50px;
+}
+
+.video1 {
+  width: 640px;
+}
+
+.audio1 {
+  width: 540px;
+}
+
+footer {
+  background-color: #e8d0e5;
+  height: 5vh;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding: 0px;
+}
+img {
+  opacity: 0.5;
+}
+
+/* contato */
+
+/* a:hover {
+  text-decoration: underline;
+}
+
+textarea {
+  resize: vertical
+} */
+
+.row2 {
+  width: 630px;
+  display: flex;
+}
+
+.container1 {
+  background-color: blue;
+}
+.container2 {
+  width: 300px;
+  background-color: blue;
+}
+
+.row1 .row3 {
+  width: 630px;
+}

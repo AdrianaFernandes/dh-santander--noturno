@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <nav>
+        <a target="_black" href="index.html">Home</a>
+        <a target="_black" href="hobbies.html">Hobbies</a>
+
+    </nav>
+    <header>
+        <h1>"Formulário de Contato"</h1>
+    </header>
+
+    <section>
+        <form action="" method="post">
+
+            <div>
+                <label for="Nome">Nome:</label>
+                <input type="text" name="nome" required="required" placeholder="Digite seu nome" />
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" required="required" placeholder="user@email.com" />
+            </div>
+
+            <div>
+                <label for="">Selecione sua cidade</label>
+                <select name="cidade" id="" required="required">
+                    <option selected="selected" value="">Selecione</option>
+                    <option value="1">Belo Horizonte</option>
+                    <option value="2">São Paulo</option>
+                    <option value="3">Rio de Janeiro</option>
+                </select>
+
+            </div>
+
+            <div>
+                <label for="sexo">Gênero:</label>
+                <br>
+
+                <input type="radio" name="Genero " id="" value="Feminino">
+                <label for="sexo">Feminino:</label>
+                <br>
+
+                <input type="radio" name="Genero " id="" value="Marculino">
+                <label for="sexo">Marculino:</label>
+            </div>
+
+
+
+            <input type="radio" name="Genero " id="" value="Prefiro Não Responder">
+            <label for="sexo">Prefiro Não Responder:</label>
+            <br>
+            <label for="assunto">Assunto da mensagem:</label>
+            <select name="Assunto da mensagem" id="">
+                <option value="Aula1">Aula1</option>
+                <option value="Aula2">Aula2</option>
+                <option value="Aula3">Aula3</option>
+                <option value="Aula4">Aula4</option>
+            </select>
+            <br>
+            <label for="sexo">Passatempos:</label>
+            <br>
+
+            <input type="checkbox" name="passatempos " id="" value="Yoga">
+            <label for="passatempos">Yoga</label>
+            <br>
+
+            <input type="checkbox" name="passatempos " id="" value="Cinema">
+            <label for="passatempos">Cinema</label>
+            <br>
+
+            <input type="checkbox" name="passatempos " id="" value="Leituras">
+            <label for="passatempos">Leituras</label>
+            <br>
+
+            <input type="checkbox" name="passatempos " id="" value="Surfar">
+            <label for="passatempos">Surfar</label>
+            <br>
+
+            <input type="checkbox" name="passatempos " id="" value="Ser Voluntario">
+            <label for="passatempos">Ser Voluntario</label>
+            <br>
+            
+            <label for="comentarios">Comentários:</label>
+            <textarea name="comentarios" style="resize: none;" id="" cols="60" rows="10"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Excluir</button>
+
+
+
+
+        </form>
+    </section>
+
+
+</body>
+<footer>
+    <p> Copyright © 2020 | Desenvolvido por <strong>Adriana Fernandes Dorigão</strong></p>
+</footer>
+
+</html>
